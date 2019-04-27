@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     
     time = Time.localtime
-    puts time.
+    puts time.getlocal
     resp.finish
   end
 end
